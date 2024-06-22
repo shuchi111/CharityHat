@@ -23,7 +23,7 @@ header {
 
 .headText {
     margin-left: 2rem;
-    color: rgb(0, 255, 255);
+    color: rgb(131, 52, 235);
     position: absolute;
     top: 50%;
     left: 20px;
@@ -52,7 +52,7 @@ header {
 }
 
 .navlinks li:hover {
-    background-color: rgb(31, 35, 73);
+    background-color: rgb(252, 182, 3);
     transition: all 250ms ease;
 }
 
@@ -81,7 +81,19 @@ main {
     text-align: center;
     color: #0c0c04;
 }
-
+.left{
+    
+    height: 100vh;
+    width: 16%;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .first-heading {
     font-size: 3em;
 }
@@ -96,6 +108,10 @@ main {
     color: #000000;
 }
 
+.heading{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 #donate {
     font-size: 16px;
     padding: 16px;
@@ -108,12 +124,14 @@ main {
     text-align: center;
     text-decoration: none;
     transition: 300ms ease;
+    border-radius: 15px;
 }
 
 #donate:hover {
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.5);
     transition: 300ms ease;
+    background-color:#3C4048;
 }
 
 #donate:focus {

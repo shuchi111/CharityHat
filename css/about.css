@@ -10,7 +10,7 @@
 .section{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(235, 230, 230);
+    background-color: #CDFCF6;
 }
 .container{
     width: 80%;
@@ -56,23 +56,28 @@
     color: #fff;
     font-size: 30px;
     letter-spacing: 1.5px;
+    border-radius: 15px;
 }
 .content-section .content .button a:hover{
     /* background-color: #e99c29; */
-    background-color: red;
+    background-color: grey;
     color: #fff;
 }
 .content-section .social{
     margin:55px 57px;
 }
 .content-section .social i{
-    color: #d80d0d;
+    color: black;
     font-size: 30px;
     padding: 0px 10px;
 }
 .content-section .social i:hover{
     /* color: #3d3d3d; */
-    color: blue;
+    color: grey;
+}
+.heading{
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 @media screen and (max-width:768px){
     .container{
